@@ -66,13 +66,14 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="CssFonts.css" />
+    <Content Include="images\Ameri.png" />
+    <Content Include="styles\CssFonts.css" />
     <Content Include="CSSMediaQuery.html" />
     <Content Include="CssProject.html" />
-    <Content Include="CssStyleProject.css" />
+    <Content Include="styles\CssStyleProject.css" />
     <Content Include="Fonts.html" />
     <Content Include="packages.config" />
-    <Content Include="caveat.ttf" />
+    <Content Include="fonts\caveat.ttf" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -83,8 +84,8 @@
   <ItemGroup>
     <Content Include="MyCss.html" />
     <Content Include="MyCssDefinition.html" />
-    <Content Include="StyleCSS.css" />
-    <Content Include="StyleCss2.css" />
+    <Content Include="styles\StyleCSS.css" />
+    <Content Include="styles\StyleCss2.css" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>

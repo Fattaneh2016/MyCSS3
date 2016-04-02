@@ -1,7 +1,9 @@
 ﻿body {
+
+    background-color:#5691bd;
 }
  p{
-     border:3px solid pink;
+     border:3px solid #2d72a7;
      padding:5px;
      font-size:medium;
  }
