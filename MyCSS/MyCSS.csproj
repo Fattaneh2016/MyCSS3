@@ -68,6 +68,8 @@
   <ItemGroup>
     <Content Include="CssFonts.css" />
     <Content Include="CSSMediaQuery.html" />
+    <Content Include="CssProject.html" />
+    <Content Include="CssStyleProject.css" />
     <Content Include="Fonts.html" />
     <Content Include="packages.config" />
     <Content Include="caveat.ttf" />

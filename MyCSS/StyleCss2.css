@@ -1,9 +1,10 @@
 ﻿section, header, footer {
-    margin: 20px;
+   
     border: 2px black solid;
     padding: 10px; /*amount of space that should appear between the content of an element and the element border.*/
     min-height: 60px;
-    margin:10px; /*space between an HTML element and the surrounding element.*/
+    margin:10px; 
+    /*space between an HTML element and the surrounding element.*/
 }
 
 .grayBackground {

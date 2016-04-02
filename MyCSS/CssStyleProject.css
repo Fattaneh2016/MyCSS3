@@ -1,0 +1,35 @@
+﻿body {
+}
+ p{
+     border:3px solid pink;
+     padding:5px;
+     font-size:medium;
+ }
+        header{
+             background-color:#977d7d;
+              padding-top:1px ;
+              padding-left:20px;
+              margin-left:5px ;
+              
+              border:thin #4e3232 inset; 
+            }
+    header>h1{
+              font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+              font-size:2.5em;
+             
+
+          }
+
+   header>h2{
+
+        font-family:'Times New Roman', Times, serif;
+        font-size:1em;
+    }
+    h3{
+
+        color:#c63e3e;
+        padding:10px;
+        font-size:x-large;
+    }
+    
+   
