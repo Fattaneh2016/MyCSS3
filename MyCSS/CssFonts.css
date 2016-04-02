@@ -1,0 +1,25 @@
+﻿
+
+    body {
+        font-family: Caveat;
+}
+        @font-face {
+        font-family: Caveat;
+        src: url('caveat.ttf') format('truetype');
+
+
+}
+
+
+    /*@font-face {
+    font-family: "Demo Font";
+    src: url(/demofont.otf);
+}
+                footer {
+  font-family: "Demo Font", Arial, sans-serif;
+}
+                footer {
+  font-family: "Demo Font", Arial, sans-serif;
+}*/
+
+

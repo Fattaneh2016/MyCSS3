@@ -1,0 +1,113 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<meta charset="utf-8" />
+
+	<link rel="stylesheet" href="base.css" />
+	<link rel="stylesheet" href="mobile.css" media="screen and (max-width: 1000px)" />
+	<link rel="stylesheet" href="print.css" media="print" />
+	
+	<link rel="stylesheet" href="print.css" media="only print" />
+	<style>
+		
+		@media screen {
+			body {
+				background-color: red;
+				font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+                font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+			}
+
+			@media print {
+				body {
+					background-color: white;
+				}
+			}
+
+			@media speech {
+				aside {
+					display: none;
+					background-color: #23354B;
+					color: #CDB09E;
+					padding: 25px;
+					margin: 5px;
+				}
+
+				@media (min-width: 500px) {
+					nav {
+						width: 100px;
+					}
+				}
+
+				@media (min-height: 500px) {
+					nav {
+						height: 300px;
+					}
+				}
+
+				@media (max-width: 500px) {
+					nav {
+						width: 50px;
+					}
+				}
+
+				@media (min-width: 1000px), (max-width: 500px) {
+					footer {
+						font-weight: bold;
+					}
+				}
+
+				@media screen and (min-width: 500px) and (max-width: 500px) {
+					article {
+						font-style: italic;
+					}
+
+					nav {
+						display: block;  /*flex*/
+					}
+
+						nav > aside {
+							-ms-flex: 1;
+							-webkit-flex: 1;
+							flex: 1;
+						}
+				}
+				@media all {
+					body > article {
+					font-family: serif;
+	}
+}
+				@media speech {
+					body > section.screenReaderOverview {
+					display: block;
+	}
+}
+				@media not speech {
+					body > section.screenReaderOverview {
+					display: none;
+	}
+}
+                
+				}
+			}
+		
+		
+	</style>
+</head>
+
+<body>
+
+	<nav>
+		<aside>Alpharetta is a city and an affluent suburb of Atlanta located in north Fulton County, Georgia, United States. According to the 2010 census, Alpharetta's population is 57,551. Wikipedia
+Weather: 67°F (19°C), Wind SW at 6 mph (10 km/h), 82% Humidity
+Hotels: 3-star averaging $150. View hotels
+Local time: Friday 6:57 PM.</aside>
+		<aside>Whether you’re new to Alpharetta or a lifelong resident, there’s just so much to discover in this beautiful and vibrant Southern city. Alpharetta truly has it all. A unique blend of excellent schools, incredible job opportunities, great shopping and cultural events and abundant green space. It’s no wonder Alpharetta is one of the hottest markets in both commercial and residential real estate. Through all of its progress, the city has kept its down-to-earth character. Which may be why people who live here usually stay here. And why there’s always something new and exciting happening. Welcome to Alpharetta. Enjoy exploring all that this amazing city has to offer..</aside>
+		<aside>The agenda for the April 04, 2016 meeting of your City Council is available online. Once on the agenda page you will also be able to download the full packet for the meeting.</aside>
+	</nav>
+    <footer>
+        My copyright
+    </footer>
+</body>
+
+</html>
